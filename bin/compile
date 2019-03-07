@@ -69,7 +69,7 @@ else
   echo "-----> $MAXMIND_FULL_DB_NAME: Database already exists in cache."
 fi
 
-OUTPUT="$BUILD_DIR/db"
+OUTPUT="$BUILD_DIR/lib"
 
 echo "-----> $MAXMIND_FULL_DB_NAME: Copying $DB to $OUTPUT"
 
